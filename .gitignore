@@ -1,0 +1,8 @@
+node_modules
+yarn.lock
+*.zip
+package.json
+.DS_Store
+uploads
+.prettierrc.json
+package-lock.json

@@ -1,0 +1,35 @@
+{
+  "name": "vexere-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "start:watch": "nodemon .",
+    "debug:watch": "DEBUG=* nodemon .",
+    "start:staging": "NODE_ENV=staging node .",
+    "start:local": "NODE_ENV=local node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "hogan": "^1.0.2",
+    "hogan.js": "^3.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.19",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.10",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "2.0.5"
+  }
+}
